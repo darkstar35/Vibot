@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<VibotMapInfo>
+  <MapInfo>
+    <Map_Width>3072</Map_Width>
+    <Map_Height>3072</Map_Height>
+    <Tile_Width>128</Tile_Width>
+    <Tile_Height>128</Tile_Height>
+  </MapInfo>
+  <Tiles>
+    <Tile>
+      <Image>Tile1</Image>
+      <Location>128 128 128 128</Location>
+    </Tile>
+    <Tile>
+      <Image>Tile1</Image>
+      <Location>256 256 128 128</Location>
+    </Tile>
+    <Tile>
+      <Image>Tile1</Image>
+      <Location>256 128 128 128</Location>
+    </Tile>
+    <Tile>
+      <Image>Tile1</Image>
+      <Location>128 0 128 128</Location>
+    </Tile>
+    <Tile>
+      <Image>Tile1</Image>
+      <Location>256 0 128 128</Location>
+    </Tile>
+    <Tile>
+      <Image>Tile1</Image>
+      <Location>384 384 128 128</Location>
+    </Tile>
+    <Tile>
+      <Image>Tile1</Image>
+      <Location>256 128 128 128</Location>
+    </Tile>
+  </Tiles>
+  <Vibot>
+    <Image>Vibot</Image>
+    <Location>183 330 30 47</Location>
+  </Vibot>
+  <RedBlood>
+    <Image>RedBlood</Image>
+    <Location>97 745 32 34</Location>
+    <Road>
+      <Pos>191 679</Pos>
+      <Pos>335 599</Pos>
+      <Pos>480 521</Pos>
+      <Pos>574 449</Pos>
+      <Pos>691 361</Pos>
+      <Pos>814 284</Pos>
+      <Pos>972 213</Pos>
+      <Pos>1106 169</Pos>
+      <Pos>1282 116</Pos>
+      <Pos>1431 85</Pos>
+      <Pos>1619 58</Pos>
+      <Pos>1711 38</Pos>
+      <Pos>1704 229</Pos>
+      <Pos>1741 358</Pos>
+      <Pos>1743 546</Pos>
+      <Pos>1737 721</Pos>
+      <Pos>1984 838</Pos>
+      <Pos>2153 772</Pos>
+      <Pos>2407 913</Pos>
+      <Pos>2571 1007</Pos>
+    </Road>
+  </RedBlood>
+  <SpawnPoints>
+    <SpawnPoint>
+      <Location>488 172 60 59</Location>
+      <SpawnTick>0</SpawnTick>
+      <AliveTime>0</AliveTime>
+      <Enemys />
+    </SpawnPoint>
+  </SpawnPoints>
+</VibotMapInfo>

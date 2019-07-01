@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<VibotMapInfo>
+  <MapInfo>
+    <MainTile>MainTile</MainTile>
+    <Map_Width>3072</Map_Width>
+    <Map_Height>3072</Map_Height>
+  </MapInfo>
+  <BackGround>
+    <Image xmlns="BackGround1">
+      <Location>2 3 15 15</Location>
+    </Image>
+    <Image xmlns="BackGround1">
+      <Location>21 22 15 15</Location>
+    </Image>
+    <Image xmlns="BackGround2">
+      <Location>51 53 15 15</Location>
+    </Image>
+  </BackGround>
+</VibotMapInfo>

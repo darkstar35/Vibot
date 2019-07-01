@@ -1,0 +1,181 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Vibot</name>
+    </assembly>
+    <members>
+        <member name="T:Vibot.eFADESTATE">
+            <summary>
+            This is the main type for your game
+            </summary>
+        </member>
+        <member name="M:Vibot.MainGame.LoadContent">
+            <summary>
+            LoadContent will be called once per game and is the place to load
+            all of your content.
+            </summary>
+        </member>
+        <member name="M:Vibot.MainGame.Draw(Microsoft.Xna.Framework.GameTime)">
+            <summary>
+            This is called when the game should draw itself.
+            </summary>
+            <param name="gameTime">Provides a snapshot of timing values.</param>
+        </member>
+        <member name="T:Vibot.CellField">
+            <summary>
+            The starfield that renders behind the game, including a parallax effect.
+            </summary>
+        </member>
+        <member name="F:Vibot.CellField.numberOfCells">
+            <summary>
+            The number of stars in the starfield.
+            </summary>
+        </member>
+        <member name="F:Vibot.CellField.numberOfLayers">
+            <summary>
+            The number of layers in the starfield.
+            </summary>
+        </member>
+        <member name="F:Vibot.CellField.maximumbackcellmovementPerUpdate">
+            <summary>
+            The maximum amount of backcellmovement allowed per update.
+            </summary>
+            <remarks>
+            Any per-update backcellmovement values that exceed this will trigger a 
+            starfield reset.
+            </remarks>
+        </member>
+        <member name="F:Vibot.CellField.layerColors">
+            <summary>
+            The colors for each layer of stars.
+            </summary>
+            
+        </member>
+        <member name="F:Vibot.CellField.backcellmovementFactors">
+            <summary>
+            The backcellmovement factor for each layer of stars, used in the parallax effect.
+            </summary>
+            
+        </member>
+        <member name="F:Vibot.CellField.backgroundColor">
+            <summary>
+            The background color of the starfield.
+            </summary>
+        </member>
+        <member name="F:Vibot.CellField.lastPosition">
+            <summary>
+            The last position, used for the parallax effect.
+            </summary>
+        </member>
+        <member name="F:Vibot.CellField.position">
+            <summary>
+            The current position, used for the parallax effect.
+            </summary>
+        </member>
+        <member name="F:Vibot.CellField.graphicsDevice">
+            <summary>
+            The graphics device used to render the starfield.
+            </summary>
+        </member>
+        <member name="F:Vibot.CellField.contentManager">
+            <summary>
+            The content manager used to manage the m_Textures in the starfield.
+            </summary>
+        </member>
+        <member name="F:Vibot.CellField.m_spriteBatch">
+            <summary>
+            The SpriteBatch used to render the starfield.
+            </summary>
+        </member>
+        <member name="F:Vibot.CellField.CellTexture">
+            <summary>
+            The m_Texture used for each star, typically one white pixel.
+            </summary>
+        </member>
+        <member name="M:Vibot.CellField.#ctor(Microsoft.Xna.Framework.Vector2,Microsoft.Xna.Framework.Graphics.GraphicsDevice,Microsoft.Xna.Framework.Content.ContentManager)">
+            <summary>
+            Create a new Starfield object.
+            </summary>
+            <param name="position"></param>
+            <param name="graphicsDevice">The graphics device used to render.</param>
+            <param name="contentManager">The content manager for this object.</param>
+        </member>
+        <member name="M:Vibot.CellField.LoadContent">
+            <summary>
+            Load graphics data from the system.
+            </summary>
+        </member>
+        <member name="M:Vibot.CellField.UnloadContent">
+            <summary>
+            Release graphics data.
+            </summary>
+        </member>
+        <member name="M:Vibot.CellField.Reset(Microsoft.Xna.Framework.Vector2)">
+            <summary>
+            Reset the stars and the parallax effect.
+            </summary>
+            <param name="position">The new origin point for the parallax effect.</param>
+        </member>
+        <member name="M:Vibot.CellField.Draw(Microsoft.Xna.Framework.Vector2,Microsoft.Xna.Framework.Graphics.SpriteBatch)">
+            <summary>
+            Update and draw the starfield.
+            </summary>
+            <remarks>
+            This function updates and draws the starfield, 
+            so that the per-star loop is only run once per frame.
+            </remarks>
+            <param name="position">The new position for the parallax effect.</param>
+        </member>
+        <member name="M:Vibot.CellField.Dispose">
+            <summary>
+            Disposes the Starfield object.
+            </summary>
+        </member>
+        <member name="M:Vibot.CellField.Dispose(System.Boolean)">
+            <summary>
+            Disposes this object.
+            </summary>
+            <param name="disposing">
+            True if this method was called as part of the Dispose method.
+            </param>
+        </member>
+        <member name="T:Vibot.RandomMath">
+            <summary>
+            Static methods to assist with random-number generation.
+            </summary>
+        </member>
+        <member name="F:Vibot.RandomMath.random">
+            <summary>
+            The Random object used for all of the random calls.
+            </summary>
+        </member>
+        <member name="M:Vibot.RandomMath.RandomBetween(System.Single,System.Single)">
+            <summary>
+            Generate a random floating-point value between the minimum and 
+            maximum values provided.
+            </summary>
+            <remarks>This is similar to the Random.Next method, substituting singles
+            for integers.</remarks>
+            <param name="minimum">The minimum value.</param>
+            <param name="maximum">The maximum value.</param>
+            <returns>A random floating-point value between the minimum and maximum v
+            alues provided.</returns>
+        </member>
+        <member name="M:Vibot.RandomMath.RandomDirection">
+            <summary>
+            Generate a random direction vector.
+            </summary>
+            <returns>A random direction vector in 2D space.</returns>
+        </member>
+        <member name="M:Vibot.RandomMath.RandomDirection(System.Single,System.Single)">
+            <summary>
+            Generate a random direction vector within constraints.
+            </summary>
+            <param name="minimumAngle">The minimum angle.</param>
+            <param name="maximumAngle">The maximum angle.</param>
+            <returns>
+            A random direction vector in 2D space, within the constraints.
+            </returns>
+        </member>
+    </members>
+</doc>

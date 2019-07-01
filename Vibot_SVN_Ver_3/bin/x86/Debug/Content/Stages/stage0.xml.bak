@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<VibotMapInfo>
+
+ <BackgroundMusic>Tutorial</BackgroundMusic>
+ <EventScript>
+    <WelcomeMsg>Welcome to the Cell World</WelcomeMsg>
+    <WelcomeMsg>This is You</WelcomeMsg>
+    <WelcomeMsg></WelcomeMsg>
+    <WelcomeMsg>Those are Objects..; You can bump Those</WelcomeMsg>
+	<WelcomeMsg>Now Move in pentagons and bump Cholesterol once</WelcomeMsg>
+    <InGameMsg>You can bump contact Object</InGameMsg>
+	<InGameMsg>Move in pentagons once. and Bump Cole :)</InGameMsg>
+	<InGameMsg>You can Move By W/S/D/A; or Left/Right/Up/Down Key</InGameMsg>
+
+ </EventScript>
+
+  <MapInfo>
+    <MainTile>MainTile</MainTile>
+    <Rectangle>0 0 1536 1536</Rectangle>
+    <BackGroundLayers>
+      <BackGroundLayer>
+        <Type>1</Type>
+        <Rectangle>0 0 600 800</Rectangle>
+        <Angle>0</Angle>
+	  </BackGroundLayer>
+	   <BackGroundLayer>
+		<Type>2</Type>
+        <Rectangle>736 1333 800 200</Rectangle>
+        <Angle>180</Angle>
+	   </BackGroundLayer>
+	      <BackGroundLayer>
+        <Type>3</Type>
+        <Rectangle>2 1259 800 400</Rectangle>
+        <Angle>180</Angle>
+      </BackGroundLayer>
+    </BackGroundLayers>
+  </MapInfo>
+  
+
+  <Vibot>
+    <Location>350 350</Location>
+  </Vibot>
+
+ <ObjectPoints>
+  <Object>	
+  <Location>750 500 50 50</Location>  
+    <Name>Cole</Name>
+
+  </Object>
+
+  <Object>
+  <Location>500 750 50 50</Location>  
+    <Name>Cole</Name>
+	
+  </Object>
+
+  <Object>
+  	<Location>900 750 50 50</Location>  
+    <Name>Cole</Name>
+
+  </Object>
+
+ </ObjectPoints>
+
+<!--
+<SpawnPoints>
+
+
+
+
+
+    <SpawnPoint>
+      <Location>1050 10 0 0</Location> 
+      <SpawnTick>60000</SpawnTick>
+      <AliveTime>1800000</AliveTime>
+      <Enemys>
+        <Enemy>
+          <Name>H5</Name>
+          <Probability>40</Probability>
+        </Enemy>
+      </Enemys>
+    </SpawnPoint>
+
+
+    <SpawnPoint>
+      <Location>800 1000 0 0</Location>
+      <SpawnTick>10000</SpawnTick>
+      <AliveTime>1800000</AliveTime>
+      <Enemys>
+        <Enemy>
+          <Name>H5</Name>
+          <Probability>80</Probability>
+        </Enemy>
+      </Enemys>
+    </SpawnPoint>
+
+
+    <SpawnPoint>
+      <Location>30 1000 0 0</Location>
+      <SpawnTick>18000</SpawnTick>
+      <AliveTime>1000000</AliveTime>
+      <Enemys>
+        <Enemy>
+          <Name>H5</Name>
+          <Probability>80</Probability>
+        </Enemy>
+      </Enemys>
+    </SpawnPoint>
+
+
+
+  </SpawnPoints>-->
+</VibotMapInfo>

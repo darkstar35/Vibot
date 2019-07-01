@@ -1,0 +1,245 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<VibotMapInfo>
+  <MapInfo>
+    <Map_Width>2024</Map_Width> <!-- 1280 720 -->
+    <Map_Height>5096</Map_Height>
+	<GoalPoint>1024 3890</GoalPoint>
+    <Tile_Width>1024</Tile_Width>
+    <Tile_Height>1024</Tile_Height>
+  </MapInfo>
+ 
+  <MapImage>
+    <Tile>
+      <Image>Stage0_1</Image>
+      <Location>0 0 1024 1024</Location>
+    </Tile>
+	  <Tile>
+      <Image>Stage0_1</Image>
+      <Location>0 0 2048 1024</Location>
+    </Tile>
+
+		  <Tile>
+      <Image>Stage0_1</Image>
+      <Location>0 0 3072 1024</Location>
+    </Tile>
+
+
+    <Tile>
+      <Image>Stage0_2</Image>
+      <Location>1024 0 1024 1024</Location>
+    </Tile>
+    <Tile>
+      <Image>Stage0_3</Image>
+      <Location>0 1024 1024 1024</Location>
+    </Tile>
+	 
+
+    <Tile>
+      <Image>Stage0_4</Image>
+      <Location>1024 1024 1024 1024</Location>
+    </Tile>
+	 <Tile>
+      <Image>Stage0_1</Image>
+      <Location>2048 0 1024 1024</Location>
+    </Tile>
+ 
+
+	 <Tile>
+      <Image>Stage0_2</Image>
+      <Location>0 2024 1024 1024</Location>
+    </Tile>
+
+	 <Tile>
+      <Image>Stage0_3</Image>
+      <Location>2048 1024 1024 1024</Location>
+    </Tile>
+
+	 <Tile>
+      <Image>Stage0_4</Image>
+      <Location>0 3024 1024 1024</Location>
+    </Tile>
+
+
+  </MapImage>
+
+  <Vibot>
+    <Image>Vibot</Image>
+    <Location>350 350 56 56</Location>
+  </Vibot>
+ 
+  <RedBlood>
+    <Image>RedBlood</Image>
+    <Location>30 80 140 140</Location>
+    <Road>
+    <Pos>50 100</Pos>
+	<Pos>200 290</Pos>
+	<Pos>370 330</Pos>
+	<Pos>400 490</Pos>
+	<Pos>630 560</Pos>
+	<Pos>739 656</Pos>
+	<Pos>869 749</Pos>
+	<Pos>701 800</Pos>
+	<Pos>652 888</Pos>
+	<Pos>559 902</Pos>
+	<Pos>501 1000</Pos>
+	<Pos>627 1100</Pos>
+	<Pos>527 1200</Pos>
+	<Pos>427 1100</Pos>
+	<Pos>467 1180</Pos>
+	<Pos>389 1199</Pos>
+	<Pos>380 1230</Pos>
+	<Pos>310 1390</Pos>
+	<Pos>280 1400</Pos>
+	<Pos>307 1430</Pos>
+	<Pos>431 1450</Pos>
+	<Pos>531 1510</Pos>
+	<Pos>591 1620</Pos>
+	<Pos>631 1700</Pos>
+	<Pos>731 1800</Pos>
+	<Pos>831 1900</Pos>
+	 <Pos>750 2000</Pos>
+	 <Pos>831 3000</Pos>
+	  <Pos>850 3590</Pos>
+	<Pos>810 3900</Pos>
+	  <Pos>850 4071</Pos>
+
+    </Road>
+  </RedBlood>
+
+
+  <Items>
+    <Name>Biogage 0</Name>
+    <Location>350 350 10 10</Location>
+  </Items>
+
+
+
+
+ <ObjectPoints>
+  
+  <Object>
+    <Name>N7_NaturalCell</Name>
+	<Location>150 3800 50 50</Location>   <!-- 150 00(좌표) 50 50(크기) -->
+  </Object>
+
+  <Object>
+    <Name>N8_NaturalCell</Name>
+	<Location>550 2500 50 50</Location>  
+  </Object>
+
+  <Object>
+    <Name>Chole_Object</Name>
+	<Location>200 1700 50 50</Location>  
+  </Object>
+
+ </ObjectPoints>
+
+
+<SpawnPoints>
+    <SpawnPoint>
+      <Location>10 1350 0 0</Location>
+      <SpawnTick>12000</SpawnTick>
+      <AliveTime>1000000</AliveTime>  <!-- 60000 = 6second -->
+      <Enemys>
+        <Enemy>
+          <Name>H5</Name>
+          <Probability>90</Probability>
+        </Enemy>
+      </Enemys>
+    </SpawnPoint>
+
+
+
+    <SpawnPoint>
+      <Location>10 910 0 0</Location>
+      <SpawnTick>18000</SpawnTick>
+      <AliveTime>1800000</AliveTime>
+      <Enemys>
+        <Enemy>
+          <Name>H5</Name>
+          <Probability>60</Probability>
+        </Enemy>
+      </Enemys>
+    </SpawnPoint>
+   
+	<SpawnPoint>
+      <Location>0 1050 0 0</Location>
+      <SpawnTick>18000</SpawnTick>
+      <AliveTime>1000000</AliveTime>
+      <Enemys>
+        <Enemy>
+          <Name>H5</Name>
+          <Probability>90</Probability>
+        </Enemy>
+      </Enemys>
+    </SpawnPoint>
+
+    <SpawnPoint>
+      <Location>1024 1150 0 0</Location>
+      <SpawnTick>15000</SpawnTick>
+      <AliveTime>2000000</AliveTime>
+      <Enemys>
+        <Enemy>
+          <Name>H5</Name>
+          <Probability>70</Probability>
+        </Enemy>
+      </Enemys>
+    </SpawnPoint>
+
+   <SpawnPoint>
+      <Location>1024 1024 0 0</Location>
+      <SpawnTick>10000</SpawnTick>
+      <AliveTime>2000000</AliveTime>
+      <Enemys>
+        <Enemy>
+          <Name>Flu</Name>
+          <Probability>50</Probability>
+        </Enemy>
+      </Enemys>
+    </SpawnPoint>
+
+    <SpawnPoint>
+      <Location>1000 4048 0 0</Location>
+      <SpawnTick>12000</SpawnTick>
+      <AliveTime>90000</AliveTime>
+      <Enemys>
+        <Enemy>
+          <Name>Flu</Name>
+          <Probability>80</Probability>
+        </Enemy>
+      </Enemys>
+    </SpawnPoint>
+
+
+    <SpawnPoint>
+      <Location>0 4000 0 0</Location>
+      <SpawnTick>14000</SpawnTick>
+      <AliveTime>5000000</AliveTime>
+      <Enemys>
+        <Enemy>
+          <Name>Flu</Name>
+          <Probability>100</Probability>
+        </Enemy>
+      </Enemys>
+    </SpawnPoint>
+
+
+
+
+<!--
+    <SpawnPoint>
+      <Location>550 150 0 0</Location>
+      <SpawnTick>500000</SpawnTick>
+      <AliveTime>5000000</AliveTime>
+      <Enemys>
+        <Enemy>
+          <Name>Parasite</Name>
+          <Probability>5</Probability>
+        </Enemy>
+      </Enemys>
+    </SpawnPoint>
+-->
+
+
+  </SpawnPoints>
+</VibotMapInfo>

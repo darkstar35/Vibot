@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<VibotMapInfo>
+  <BackgroundMusic>Stage1</BackgroundMusic>
+  <EventScript>
+    <WelcomeMsg>Welcome to the Tutorial2</WelcomeMsg>
+    <WelcomeMsg>It is Your RedBlood Cells, ; You must Proctect it</WelcomeMsg>
+    <WelcomeMsg>This Area is SecurePoint. ;RedBlood Cell go to there for securying</WelcomeMsg>
+    <WelcomeMsg>and that's G-Zone, ;finnally Goal is Redblood arriving G-Zone</WelcomeMsg>
+    <InGameMsg>RedBlood is Securying, wait there </InGameMsg>
+    <InGameMsg>This is Virus spawn. ; It produce virus at regular intervals</InGameMsg>
+    <InGameMsg>Goin this Hexagon; you can be Bump and absorb viruse </InGameMsg>
+    <InGameMsg>and another Virus spawn there.; go to absorb viruses</InGameMsg>
+  </EventScript>
+  <MapInfo>
+    <MainTile>MainTile</MainTile>
+    <Rectangle>0 0 1280 1000</Rectangle>
+    <Goal_Zone>1052 495 180 180</Goal_Zone>
+    <BackGroundLayers>
+      <BackGroundLayer>
+        <Type>1</Type>
+        <Rectangle>0 200 600 800</Rectangle>
+        <Angle>0</Angle>
+      </BackGroundLayer>
+      <BackGroundLayer>
+        <Type>2</Type>
+        <Rectangle>800 100 1000 400</Rectangle>
+        <Angle>0</Angle>
+      </BackGroundLayer>
+      <BackGroundLayer>
+        <Type>3</Type>
+        <Rectangle>0 1241 1000 500</Rectangle>
+        <Angle>180</Angle>
+      </BackGroundLayer>
+      <BackGroundLayer>
+        <Type>5</Type>
+        <Rectangle>1 450 1000 1300</Rectangle>
+        <Angle>0</Angle>
+      </BackGroundLayer>
+      <BackGroundLayer>
+        <Type>3</Type>
+        <Rectangle>271 783 500 500</Rectangle>
+        <Angle>180</Angle>
+      </BackGroundLayer>
+    </BackGroundLayers>
+
+  </MapInfo>
+  <GameField>
+    <Secure_Points>
+      <Secure_Point>500 150 300 300</Secure_Point>
+    </Secure_Points>
+  </GameField>
+  <Vibot>
+    <Location>217 361</Location>
+  </Vibot>
+  <RedBlood>
+    <LifeNumber>6</LifeNumber>
+    <CoreVelocity>0.5</CoreVelocity>
+    <Location>50 50</Location>
+    <Road>
+      <Pos>218 236</Pos>
+      <Pos>437 282</Pos>
+      <Pos>550 310</Pos>
+      <Pos>792 300</Pos>
+      <Pos>837 317</Pos>
+      <Pos>849 330</Pos>
+      <Pos>1031 480</Pos>
+      <Pos>1130 568</Pos>
+      <Pos>1202 646</Pos>
+    </Road>
+  </RedBlood>
+
+  <SpawnPoints>
+    <SpawnPoint>
+      <Level>0</Level>
+      <Location>600 630</Location>
+      <SpawnTick>70000</SpawnTick>
+      <AliveTime>400000</AliveTime>
+      <SpawnStart>12000</SpawnStart>
+      <HP>100</HP>
+      <Virus>
+        <Name>H5</Name>
+        <Direction>90</Direction>
+        <Probability>90</Probability>
+      </Virus>
+    </SpawnPoint>
+    <SpawnPoint>
+      <Level>0</Level>
+      <Location>900 100</Location>
+      <SpawnTick>54000</SpawnTick>
+      <AliveTime>400000</AliveTime>
+      <SpawnStart>55000</SpawnStart>
+      <HP>100</HP>
+      <Virus>
+        <Name>H5</Name>
+        <Direction>258</Direction>
+        <Probability>99</Probability>
+      </Virus>
+    </SpawnPoint>
+  </SpawnPoints>
+</VibotMapInfo>

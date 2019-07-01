@@ -1,0 +1,288 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<VibotMapInfo>
+  <BackgroundMusic>Stage1</BackgroundMusic>
+  <EventScript>
+    <WelcomeMsg>Dash is Fast Move ; You Can Dash 'W,S,D,A key + Space key'</WelcomeMsg>
+    <InGameMsg>There  Cholestrols Block the Our Way</InGameMsg>
+    <InGameMsg>Now Dash Trough Cholestrols.; Dash : space + W,S,D,A </InGameMsg>
+    <InGameMsg>OK good Let's Move  </InGameMsg>
+    <InGameMsg>This is White bio-gauge!; It that make WhiteCell </InGameMsg>
+	<InGameMsg>Click position and Whieel button or 'F' key  </InGameMsg>
+    <InGameMsg>This is WhiteCell Defense Tower ;it against Virus! </InGameMsg>
+	<InGameMsg>Click Position : laser line select ; Select and Drag: Move Object! </InGameMsg>
+  </EventScript>
+  <MapInfo>
+    <MainTile>MainTile</MainTile>
+    <Rectangle>0 0 2000 720</Rectangle>
+    <Goal_Zone>1812 571 180 180</Goal_Zone>
+    <BackGroundLayers>
+      <BackGroundLayer>
+        <Type>2</Type>
+        <Rectangle>777 1 800 300</Rectangle>
+        <Angle>0</Angle>
+      </BackGroundLayer>
+      <BackGroundLayer>
+        <Type>3</Type>
+        <Rectangle>0 628 500 300</Rectangle>
+        <Angle>0</Angle>
+      </BackGroundLayer>
+      <BackGroundLayer>
+        <Type>2</Type>
+        <Rectangle>43 656 800 300</Rectangle>
+        <Angle>0</Angle>
+      </BackGroundLayer>
+      <BackGroundLayer>
+        <Type>2</Type>
+        <Rectangle>305 950 1400 400</Rectangle>
+        <Angle>0</Angle>
+      </BackGroundLayer>
+      <BackGroundLayer>
+        <Type>2</Type>
+        <Rectangle>1 555 2000 450</Rectangle>
+        <Angle>180</Angle>
+      </BackGroundLayer>
+    </BackGroundLayers>
+    <TileBlocks>
+      <TileBlock>
+        <Type>2</Type>
+        <Location>0 -100</Location>
+      </TileBlock>
+      <TileBlock>
+        <Type>2</Type>
+        <Location>300 -100</Location>
+      </TileBlock>
+      <TileBlock>
+        <Type>2</Type>
+        <Location>600 -100</Location>
+      </TileBlock>
+      <TileBlock>
+        <Type>2</Type>
+        <Location>900 -100</Location>
+      </TileBlock>
+      <TileBlock>
+        <Type>2</Type>
+        <Location>1200 -100</Location>
+      </TileBlock>
+      <TileBlock>
+        <Type>2</Type>
+        <Location>0 630</Location>
+      </TileBlock>
+      <TileBlock>
+        <Type>2</Type>
+        <Location>300 630</Location>
+      </TileBlock>
+      <TileBlock>
+        <Type>2</Type>
+        <Location>600 630</Location>
+      </TileBlock>
+      <TileBlock>
+        <Type>2</Type>
+        <Location>900 630</Location>
+      </TileBlock>
+      <TileBlock>
+        <Type>2</Type>
+        <Location>1200 630</Location>
+      </TileBlock>
+      <TileBlock>
+        <Type>2</Type>
+        <Location>1500 630</Location>
+      </TileBlock>
+    </TileBlocks>
+  </MapInfo>
+  <GameField>
+    <Secure_Points>
+      <Secure_Point>1043 280 300 300</Secure_Point>
+    </Secure_Points>
+  </GameField>
+  <Vibot>
+    <Location>158 448</Location>
+  </Vibot>
+  <RedBlood>
+    <LifeNumber>6</LifeNumber>
+    <CoreVelocity>0.65</CoreVelocity>
+    <Location>61 363</Location>
+    <Road>
+      <Pos>159 370</Pos>
+      <Pos>246 368</Pos>
+      <Pos>329 365</Pos>
+      <Pos>400 375</Pos>
+      <Pos>453 369</Pos>
+      <Pos>499 368</Pos>
+      <Pos>560 380</Pos>
+      <Pos>630 378</Pos>
+      <Pos>669 364</Pos>
+      <Pos>714 365</Pos>
+      <Pos>751 386</Pos>
+      <Pos>793 401</Pos>
+      <Pos>833 409</Pos>
+      <Pos>881 395</Pos>
+      <Pos>932 397</Pos>
+      <Pos>975 394</Pos>
+      <Pos>1009 383</Pos>
+      <Pos>1055 385</Pos>
+      <Pos>1100 402</Pos>
+      <Pos>1119 426</Pos>
+      <Pos>1175 429</Pos>
+      <Pos>1231 425</Pos>
+      <Pos>1276 419</Pos>
+      <Pos>1335 416</Pos>
+      <Pos>1391 399</Pos>
+      <Pos>1421 394</Pos>
+      <Pos>1461 381</Pos>
+      <Pos>1534 388</Pos>
+      <Pos>1596 424</Pos>
+      <Pos>1652 453</Pos>
+      <Pos>1684 464</Pos>
+      <Pos>1731 472</Pos>
+      <Pos>1793 491</Pos>
+      <Pos>1815 517</Pos>
+      <Pos>1833 553</Pos>
+      <Pos>1847 586</Pos>
+      <Pos>1861 642</Pos>
+    </Road>
+  </RedBlood>
+
+  <WhiteCellPoints>
+ 
+  </WhiteCellPoints>
+
+  <ObjectPoints>
+    <Object>
+      <Name>Cole</Name>
+      <Location>395 636</Location>
+    </Object>
+    <Object>
+      <Name>Cole</Name>
+      <Location>424 303</Location>
+    </Object>
+    <Object>
+      <Name>Cole</Name>
+      <Location>392 364</Location>
+    </Object>
+    <Object>
+      <Name>Cole</Name>
+      <Location>398 455</Location>
+    </Object>
+    <Object>
+      <Name>Cole</Name>
+      <Location>473 505</Location>
+    </Object>
+    <Object>
+      <Name>Cole</Name>
+      <Location>453 470</Location>
+    </Object>
+    <Object>
+      <Name>Cole</Name>
+      <Location>450 403</Location>
+    </Object>
+    <Object>
+      <Name>Cole</Name>
+      <Location>450 354</Location>
+    </Object>
+    <Object>
+      <Name>Cole</Name>
+      <Location>473 307</Location>
+    </Object>
+    <Object>
+      <Name>Cole</Name>
+      <Location>497 439</Location>
+    </Object>
+    <Object>
+      <Name>Cole</Name>
+      <Location>501 351</Location>
+    </Object>
+    <Object>
+      <Name>Cole</Name>
+      <Location>504 390</Location>
+    </Object>
+    <Object>
+      <Name>Cole</Name>
+      <Location>384 410</Location>
+    </Object>
+    <Object>
+      <Name>Cole</Name>
+      <Location>420 501</Location>
+    </Object>
+    <Object>
+      <Name>Cole</Name>
+      <Location>519 486</Location>
+    </Object>
+    <Object>
+      <Name>Cole</Name>
+      <Location>471 264</Location>
+    </Object>
+    <Object>
+      <Name>Cole</Name>
+      <Location>417 261</Location>
+    </Object>
+    <Object>
+      <Name>Cole</Name>
+      <Location>384 316</Location>
+    </Object>
+    <Object>
+      <Name>Cole</Name>
+      <Location>441 546</Location>
+    </Object>
+    <Object>
+      <Name>Cole</Name>
+      <Location>391 538</Location>
+    </Object>
+    <Object>
+      <Name>Cole</Name>
+      <Location>369 490</Location>
+    </Object>
+    <Object>
+      <Name>Cole</Name>
+      <Location>368 268</Location>
+    </Object>
+    <Object>
+      <Name>Cole</Name>
+      <Location>521 295</Location>
+    </Object>
+    <Object>
+      <Name>Cole</Name>
+      <Location>403 583</Location>
+    </Object>
+    <Object>
+      <Name>Cole</Name>
+      <Location>524 250</Location>
+    </Object>
+    <Object>
+      <Name>Cole</Name>
+      <Location>424 218</Location>
+    </Object>
+    <Object>
+      <Name>Cole</Name>
+      <Location>481 217</Location>
+    </Object>
+  </ObjectPoints>
+  <SpawnPoints>
+    <SpawnPoint>
+      <Level>0</Level>
+      <Location>1070 9</Location>
+      <SpawnTick>50000</SpawnTick>
+      <AliveTime>2200000</AliveTime>
+      <SpawnStart>85000</SpawnStart>
+      <HP>100</HP>
+      <Virus>
+        <Name>H5</Name>
+        <Direction>260</Direction>
+        <Probability>70</Probability>
+      </Virus>
+    </SpawnPoint>
+
+    <SpawnPoint>
+      <Level>0</Level>
+      <Location>1517 100</Location>
+      <SpawnTick>45000</SpawnTick>
+      <AliveTime>2200000</AliveTime>
+      <SpawnStart>500000</SpawnStart>
+      <HP>100</HP>
+      <Virus>
+        <Name>H5</Name>
+        <Direction>260</Direction>
+        <Probability>70</Probability>
+      </Virus>
+    </SpawnPoint>
+  </SpawnPoints>
+</VibotMapInfo>

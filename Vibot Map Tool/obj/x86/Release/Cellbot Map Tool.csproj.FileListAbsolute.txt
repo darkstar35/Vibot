@@ -1,0 +1,13 @@
+D:\work\Cellbot Map Tool\Cellbot Map Tool\Cellbot Map Tool\bin\Release\Cellbot Map Tool.exe
+D:\work\Cellbot Map Tool\Cellbot Map Tool\Cellbot Map Tool\bin\Release\Cellbot Map Tool.pdb
+D:\work\Cellbot Map Tool\Cellbot Map Tool\Cellbot Map Tool\obj\x86\Release\ResolveAssemblyReference.cache
+D:\work\Cellbot Map Tool\Cellbot Map Tool\Cellbot Map Tool\obj\x86\Release\Cellbot_Map_Tool.CellbotMapTool.resources
+D:\work\Cellbot Map Tool\Cellbot Map Tool\Cellbot Map Tool\obj\x86\Release\Cellbot_Map_Tool.Properties.Resources.resources
+D:\work\Cellbot Map Tool\Cellbot Map Tool\Cellbot Map Tool\obj\x86\Release\Cellbot_Map_Tool.Resource1.resources
+D:\work\Cellbot Map Tool\Cellbot Map Tool\Cellbot Map Tool\obj\x86\Release\Cellbot_Map_Tool.SetEnemyDialog.resources
+D:\work\Cellbot Map Tool\Cellbot Map Tool\Cellbot Map Tool\obj\x86\Release\Cellbot_Map_Tool.SetEnemySpawn.resources
+D:\work\Cellbot Map Tool\Cellbot Map Tool\Cellbot Map Tool\obj\x86\Release\Cellbot_Map_Tool.CSetMapInfoDialog.resources
+D:\work\Cellbot Map Tool\Cellbot Map Tool\Cellbot Map Tool\obj\x86\Release\GenerateResource.read.1.tlog
+D:\work\Cellbot Map Tool\Cellbot Map Tool\Cellbot Map Tool\obj\x86\Release\GenerateResource.write.1.tlog
+D:\work\Cellbot Map Tool\Cellbot Map Tool\Cellbot Map Tool\obj\x86\Release\Cellbot Map Tool.exe
+D:\work\Cellbot Map Tool\Cellbot Map Tool\Cellbot Map Tool\obj\x86\Release\Cellbot Map Tool.pdb

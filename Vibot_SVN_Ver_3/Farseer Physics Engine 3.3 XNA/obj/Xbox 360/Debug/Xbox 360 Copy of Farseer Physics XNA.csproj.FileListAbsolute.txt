@@ -1,0 +1,6 @@
+C:\Users\dark\Desktop\Vibot\vibot_project\Vibot_SVN_Ver_3\Farseer Physics Engine 3.3 XNA\obj\Xbox 360\Debug\ResolveAssemblyReference.cache
+C:\Users\dark\Desktop\Vibot\vibot_project\Vibot_SVN_Ver_3\Farseer Physics Engine 3.3 XNA\obj\Xbox 360\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\dark\Desktop\Vibot\vibot_project\Vibot_SVN_Ver_3\Farseer Physics Engine 3.3 XNA\bin\Xbox 360\Debug\FarseerPhysicsXNA.dll
+C:\Users\dark\Desktop\Vibot\vibot_project\Vibot_SVN_Ver_3\Farseer Physics Engine 3.3 XNA\bin\Xbox 360\Debug\FarseerPhysicsXNA.pdb
+C:\Users\dark\Desktop\Vibot\vibot_project\Vibot_SVN_Ver_3\Farseer Physics Engine 3.3 XNA\obj\Xbox 360\Debug\FarseerPhysicsXNA.dll
+C:\Users\dark\Desktop\Vibot\vibot_project\Vibot_SVN_Ver_3\Farseer Physics Engine 3.3 XNA\obj\Xbox 360\Debug\FarseerPhysicsXNA.pdb

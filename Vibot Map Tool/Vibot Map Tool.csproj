@@ -1,0 +1,152 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{397977CA-7851-4D73-8B64-72E64B4B4A92}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Cellbot_Map_Tool</RootNamespace>
+    <AssemblyName>Cellbot Map Tool</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="VibotMapTool.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VibotMapTool.Designer.cs">
+      <DependentUpon>VibotMapTool.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ObjectFactory.cs" />
+    <Compile Include="Common.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Resource1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resource1.resx</DependentUpon>
+    </Compile>
+    <Compile Include="SetEnemyDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SetEnemyDialog.Designer.cs">
+      <DependentUpon>SetEnemyDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SetEnemySpawn.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SetEnemySpawn.Designer.cs">
+      <DependentUpon>SetEnemySpawn.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SetMapInfoDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SetMapInfoDialog.Designer.cs">
+      <DependentUpon>SetMapInfoDialog.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="VibotMapTool.resx">
+      <DependentUpon>VibotMapTool.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Resource1.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resource1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SetEnemyDialog.resx">
+      <DependentUpon>SetEnemyDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SetEnemySpawn.resx">
+      <DependentUpon>SetEnemySpawn.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SetMapInfoDialog.resx">
+      <DependentUpon>SetMapInfoDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="Resources\RedBlood.png" />
+    <None Include="Resources\SpawnPoint.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\BackGround\cell_Line.png" />
+    <Content Include="Resources\BackGround\leftbottom.png" />
+    <Content Include="Resources\BackGround\leftflor.png" />
+    <Content Include="Resources\BackGround\menucell.png" />
+    <Content Include="Resources\BackGround\Reverse_cell_Line.png" />
+    <Content Include="Resources\BackGround\RIGHT_END.png" />
+    <Content Include="Resources\BackGround\RIGHT_END_BEHIND.png" />
+    <Content Include="Resources\BackGround\Stage0---.png" />
+    <Content Include="Resources\BackGround\Stage0-.png" />
+    <Content Include="Resources\BackGround\Stage_ver1.png" />
+    <Content Include="Resources\BackGround\START.png" />
+    <Content Include="Resources\BackGround\MainTile.png" />
+    <Content Include="Resources\BackGround\Tiles.png" />
+    <Content Include="Resources\BackGround\virusspwan.png" />
+    <Content Include="Resources\flag.jpg" />
+    <None Include="Resources\Objects\Cole.png" />
+    <None Include="Resources\Objects\N1.png" />
+    <Content Include="Resources\Goal_Zone.png" />
+    <Content Include="Resources\stage_back.png" />
+    <Content Include="Resources\Vibot.png" />
+    <None Include="Resources\WhiteCell.png" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

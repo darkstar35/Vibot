@@ -1,0 +1,139 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<VibotMapInfo>
+  <MapInfo>
+    <Map_Width>1536</Map_Width>
+    <Map_Height>1536</Map_Height>
+	<GoalPoint>1200 508</GoalPoint>
+    <Tile_Width>1024</Tile_Width>
+    <Tile_Height>1024</Tile_Height>
+  </MapInfo>
+ 
+  <MapImage>
+    <Tile>
+      <Image>Stage0_1</Image>
+      <Location>0 0 1024 1024</Location>
+    </Tile>
+	 
+	<Tile>
+      <Image>Stage0_2</Image>
+      <Location>1024 0 1024 1024</Location>
+    </Tile>
+    
+	<Tile>
+      <Image>Stage0_3</Image>
+      <Location>0 1024 1024 1024</Location>
+    </Tile>
+	
+	 <Tile>
+      <Image>Stage0_4</Image>
+      <Location>1024 1024 1024 10240</Location>
+    </Tile>
+   
+  </MapImage>
+
+  <Vibot>
+    <Image>Vibot</Image>
+    <Location>350 350 56 56</Location>
+  </Vibot>
+ 
+   <RedBlood>
+    <Image>RedBlood</Image>
+    <Location>100 200 140 140</Location>
+    <Road>
+      <Pos>218 236</Pos>
+	  <Pos>437 282</Pos>
+	  <Pos>550 310</Pos>
+	  <Pos>792 300</Pos>
+	  <Pos>837 317</Pos>
+	  <Pos>849 330</Pos>
+	  <Pos>1031 480</Pos>
+	  <Pos>1227 608</Pos>
+	<!-- <Pos>1420 620</Pos> -->
+
+    </Road>
+  </RedBlood>
+
+
+
+  <WhiteCellPoints>
+
+  <WhiteCell>
+	<Level>1</Level>
+	<Location>150 600 50 50</Location>   
+  </WhiteCell>
+    <WhiteCell>
+	<Level>1</Level>
+	<Location>150 600 50 50</Location>   
+  </WhiteCell>
+    <WhiteCell>
+	<Level>1</Level>
+	<Location>150 600 50 50</Location>   
+  </WhiteCell>
+    <WhiteCell>
+	<Level>1</Level>
+	<Location>150 600 50 50</Location>   
+  </WhiteCell>
+
+  </WhiteCellPoints>
+
+
+
+
+ <ObjectPoints>
+  <Object>
+    <Name>Chole_Object</Name>
+	<Location>750 500 50 50</Location>  
+  </Object>
+
+  <Object>
+    <Name>Chole_Object</Name>
+	<Location>200 750 50 50</Location>  
+  </Object>
+
+ </ObjectPoints>
+
+
+<SpawnPoints>
+
+    <SpawnPoint>
+      <Location>1050 10 0 0</Location><!-- 60000 = 6second -->
+      <SpawnTick>60000</SpawnTick>
+      <AliveTime>1800000</AliveTime>
+      <Enemys>
+        <Enemy>
+          <Name>H5</Name>
+          <Probability>40</Probability>
+        </Enemy>
+      </Enemys>
+    </SpawnPoint>
+
+
+    <SpawnPoint>
+      <Location>800 700 0 0</Location>
+      <SpawnTick>10000</SpawnTick>
+      <AliveTime>1800000</AliveTime>
+      <Enemys>
+        <Enemy>
+          <Name>H5</Name>
+          <Probability>80</Probability>
+        </Enemy>
+      </Enemys>
+    </SpawnPoint>
+
+
+    <SpawnPoint>
+      <Location>30 1000 0 0</Location>
+      <SpawnTick>18000</SpawnTick>
+      <AliveTime>1000000</AliveTime>
+      <Enemys>
+        <Enemy>
+          <Name>H5</Name>
+          <Probability>80</Probability>
+        </Enemy>
+      </Enemys>
+    </SpawnPoint>
+
+
+
+  </SpawnPoints>
+</VibotMapInfo>

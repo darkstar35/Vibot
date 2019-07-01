@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<VibotMapInfo>
+  <MapInfo>
+    <MainTile>MainTile</MainTile>
+    <Map_Width>3072</Map_Width>
+    <Map_Height>3072</Map_Height>
+  </MapInfo>
+  <BackGroundLayer>
+    <Type>BackGround1</Type>
+    <Rectangle>17 17 565 503</Rectangle>
+    <Angle>90</Angle>
+  </BackGroundLayer>
+</VibotMapInfo>

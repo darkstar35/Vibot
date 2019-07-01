@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<VibotMapInfo>
+  <MapInfo>
+    <MainTile>MainTile</MainTile>
+    <Map_Width>3072</Map_Width>
+    <Map_Height>3072</Map_Height>
+    <Goal_Zone>1334 147</Goal_Zone>
+  </MapInfo>
+  <WhiteCellPoints>
+    <WhiteCell>
+      <Level>1</Level>
+      <Location>164 158</Location>
+    </WhiteCell>
+    <WhiteCell>
+      <Level>1</Level>
+      <Location>187 156</Location>
+    </WhiteCell>
+    <WhiteCell>
+      <Level>1</Level>
+      <Location>169 139</Location>
+    </WhiteCell>
+  </WhiteCellPoints>
+  <ObjectPoints>
+    <Object>
+      <Name>Cole</Name>
+      <Location>394 299</Location>
+    </Object>
+    <Object>
+      <Name>Cole</Name>
+      <Location>283 354</Location>
+    </Object>
+  </ObjectPoints>
+  <SpawnPoints>
+    <SpawnPoint>
+      <Location>179 261 15 15</Location>
+      <SpawnTick>0</SpawnTick>
+      <AliveTime>0</AliveTime>
+      <Enemys />
+    </SpawnPoint>
+    <SpawnPoint>
+      <Location>323 144 15 15</Location>
+      <SpawnTick>0</SpawnTick>
+      <AliveTime>0</AliveTime>
+      <Enemys />
+    </SpawnPoint>
+    <SpawnPoint>
+      <Location>285 433 15 15</Location>
+      <SpawnTick>0</SpawnTick>
+      <AliveTime>0</AliveTime>
+      <Enemys />
+    </SpawnPoint>
+    <SpawnPoint>
+      <Location>436 360 15 15</Location>
+      <SpawnTick>0</SpawnTick>
+      <AliveTime>0</AliveTime>
+      <Enemys />
+    </SpawnPoint>
+    <SpawnPoint>
+      <Location>300 571 15 15</Location>
+      <SpawnTick>0</SpawnTick>
+      <AliveTime>0</AliveTime>
+      <Enemys />
+    </SpawnPoint>
+    <SpawnPoint>
+      <Location>439 550 15 15</Location>
+      <SpawnTick>0</SpawnTick>
+      <AliveTime>0</AliveTime>
+      <Enemys />
+    </SpawnPoint>
+  </SpawnPoints>
+</VibotMapInfo>

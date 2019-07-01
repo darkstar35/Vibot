@@ -1,0 +1,2 @@
+C:\Users\dark\Desktop\Vibot\vibot_project\Vibot_SVN_Ver_3\obj\Xbox 360\Debug\ResolveAssemblyReference.cache
+C:\Users\dark\Desktop\Vibot\vibot_project\Vibot_SVN_Ver_3\obj\Xbox 360\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt

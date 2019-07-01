@@ -1,0 +1,392 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<VibotMapInfo>
+  <BackgroundMusic>Stage4</BackgroundMusic>
+  <EventScript>
+    <WelcomeMsg />
+    <InGameMsg />
+  </EventScript>
+  <MapInfo>
+    <MainTile>MainTile</MainTile>
+    <Rectangle>0 0 2048 2048</Rectangle>
+    <Goal_Zone>1580 913 180 180</Goal_Zone>
+    <BackGroundLayers />
+    <TileBlocks>
+      <TileBlock>
+        <Type>2</Type>
+        <Location>9 472</Location>
+      </TileBlock>
+      <TileBlock>
+        <Type>2</Type>
+        <Location>8 773</Location>
+      </TileBlock>
+      <TileBlock>
+        <Type>2</Type>
+        <Location>8 1073</Location>
+      </TileBlock>
+      <TileBlock>
+        <Type>2</Type>
+        <Location>8 1372</Location>
+      </TileBlock>
+      <TileBlock>
+        <Type>2</Type>
+        <Location>8 1672</Location>
+      </TileBlock>
+      <TileBlock>
+        <Type>2</Type>
+        <Location>7 1969</Location>
+      </TileBlock>
+      <TileBlock>
+        <Type>2</Type>
+        <Location>306 1969</Location>
+      </TileBlock>
+      <TileBlock>
+        <Type>2</Type>
+        <Location>605 1968</Location>
+      </TileBlock>
+      <TileBlock>
+        <Type>2</Type>
+        <Location>904 1968</Location>
+      </TileBlock>
+      <TileBlock>
+        <Type>2</Type>
+        <Location>1205 1966</Location>
+      </TileBlock>
+      <TileBlock>
+        <Type>2</Type>
+        <Location>1505 1965</Location>
+      </TileBlock>
+      <TileBlock>
+        <Type>2</Type>
+        <Location>1804 1964</Location>
+      </TileBlock>
+      <TileBlock>
+        <Type>2</Type>
+        <Location>1803 1663</Location>
+      </TileBlock>
+      <TileBlock>
+        <Type>2</Type>
+        <Location>1801 1362</Location>
+      </TileBlock>
+      <TileBlock>
+        <Type>2</Type>
+        <Location>1801 1062</Location>
+      </TileBlock>
+      <TileBlock>
+        <Type>2</Type>
+        <Location>1800 762</Location>
+      </TileBlock>
+      <TileBlock>
+        <Type>2</Type>
+        <Location>1799 464</Location>
+      </TileBlock>
+      <TileBlock>
+        <Type>2</Type>
+        <Location>1799 164</Location>
+      </TileBlock>
+      <TileBlock>
+        <Type>2</Type>
+        <Location>9 173</Location>
+      </TileBlock>
+      <TileBlock>
+        <Type>2</Type>
+        <Location>9 3</Location>
+      </TileBlock>
+      <TileBlock>
+        <Type>2</Type>
+        <Location>309 3</Location>
+      </TileBlock>
+      <TileBlock>
+        <Type>2</Type>
+        <Location>609 2</Location>
+      </TileBlock>
+      <TileBlock>
+        <Type>2</Type>
+        <Location>909 2</Location>
+      </TileBlock>
+      <TileBlock>
+        <Type>2</Type>
+        <Location>1209 2</Location>
+      </TileBlock>
+      <TileBlock>
+        <Type>2</Type>
+        <Location>1508 1</Location>
+      </TileBlock>
+      <TileBlock>
+        <Type>2</Type>
+        <Location>1810 1</Location>
+      </TileBlock>
+    </TileBlocks>
+  </MapInfo>
+  <GameField>
+    <Secure_Points>
+      <Secure_Point>1300 823 300 300</Secure_Point>
+      <Secure_Point>742 814 300 300</Secure_Point>
+    </Secure_Points>
+  </GameField>
+  <Vibot>
+    <Location>545 957</Location>
+  </Vibot>
+  <RedBlood>
+    <LifeNumber>12</LifeNumber>
+    <CoreVelocity>1</CoreVelocity>
+    <Location>404 938</Location>
+    <Road>
+      <Pos>482 924</Pos>
+      <Pos>550 919</Pos>
+      <Pos>590 928</Pos>
+      <Pos>636 941</Pos>
+      <Pos>678 947</Pos>
+      <Pos>698 950</Pos>
+      <Pos>734 955</Pos>
+      <Pos>756 958</Pos>
+      <Pos>801 965</Pos>
+      <Pos>840 968</Pos>
+      <Pos>881 965</Pos>
+      <Pos>905 968</Pos>
+      <Pos>951 970</Pos>
+      <Pos>981 969</Pos>
+      <Pos>1011 969</Pos>
+      <Pos>1062 971</Pos>
+      <Pos>1114 973</Pos>
+      <Pos>1158 975</Pos>
+      <Pos>1198 972</Pos>
+      <Pos>1227 960</Pos>
+      <Pos>1260 960</Pos>
+      <Pos>1286 960</Pos>
+      <Pos>1322 960</Pos>
+      <Pos>1368 960</Pos>
+      <Pos>1396 960</Pos>
+      <Pos>1423 965</Pos>
+      <Pos>1451 969</Pos>
+      <Pos>1497 974</Pos>
+      <Pos>1520 975</Pos>
+      <Pos>1558 982</Pos>
+      <Pos>1617 979</Pos>
+      <Pos>1655 985</Pos>
+      <Pos>1673 978</Pos>
+    </Road>
+  </RedBlood>
+  <WhiteCellPoints>
+    <WhiteCell>
+      <Level>0</Level>
+      <Location>493 839</Location>
+    </WhiteCell>
+    <WhiteCell>
+      <Level>0</Level>
+      <Location>445 1049</Location>
+    </WhiteCell>
+    <WhiteCell>
+      <Level>0</Level>
+      <Location>319 1005</Location>
+    </WhiteCell>
+    <WhiteCell>
+      <Level>0</Level>
+      <Location>338 840</Location>
+    </WhiteCell>
+    <WhiteCell>
+      <Level>0</Level>
+      <Location>645 945</Location>
+    </WhiteCell>
+  </WhiteCellPoints>
+  <ObjectPoints />
+  <SpawnPoints>
+    
+	<SpawnPoint>
+      <Level>1</Level>
+      <Location>1200 148</Location>
+      <SpawnTick>95000</SpawnTick>
+      <AliveTime>3000000</AliveTime>
+      <SpawnStart>50000</SpawnStart>
+      <HP>100</HP>
+      <Virus>
+        <Name>Prein</Name>
+        <Direction>280</Direction>
+        <Probability>50</Probability>
+      </Virus>
+    </SpawnPoint>
+
+
+    <SpawnPoint>
+      <Level>1</Level>
+      <Location>1005 1488</Location>
+      <SpawnTick>65000</SpawnTick>
+      <AliveTime>3000000</AliveTime>
+      <SpawnStart>100000</SpawnStart>
+      <HP>100</HP>
+      <Virus>
+        <Name>악성세포</Name>
+        <Direction>30</Direction>
+        <Probability>80</Probability>
+      </Virus>
+    </SpawnPoint>
+    <SpawnPoint>
+      <Level>1</Level>
+      <Location>889 220</Location>
+      <SpawnTick>65000</SpawnTick>
+      <AliveTime>3000000</AliveTime>
+      <SpawnStart>200000</SpawnStart>
+      <HP>100</HP>
+      <Virus>
+        <Name>악성세포</Name>
+        <Direction>270</Direction>
+        <Probability>80</Probability>
+      </Virus>
+    </SpawnPoint>
+    <SpawnPoint>
+      <Level>0</Level>
+      <Location>1548 1618</Location>
+      <SpawnTick>20000</SpawnTick>
+      <AliveTime>5000000</AliveTime>
+      <SpawnStart>0</SpawnStart>
+      <HP>100</HP>
+      <Virus>
+        <Name>Flu</Name>
+        <Direction>40</Direction>
+        <Probability>70</Probability>
+      </Virus>
+    </SpawnPoint>
+    <SpawnPoint>
+      <Level>0</Level>
+      <Location>428 1519</Location>
+      <SpawnTick>10000</SpawnTick>
+      <AliveTime>3000000</AliveTime>
+      <SpawnStart>60000</SpawnStart>
+      <HP>100</HP>
+      <Virus>
+        <Name>H5</Name>
+        <Direction>120</Direction>
+        <Probability>70</Probability>
+      </Virus>
+    </SpawnPoint>
+    <SpawnPoint>
+      <Level>0</Level>
+      <Location>671 282</Location>
+      <SpawnTick>10000</SpawnTick>
+      <AliveTime>3000000</AliveTime>
+      <SpawnStart>10000</SpawnStart>
+      <HP>100</HP>
+      <Virus>
+        <Name>H5</Name>
+        <Direction>260</Direction>
+        <Probability>70</Probability>
+      </Virus>
+    </SpawnPoint>
+    <SpawnPoint>
+      <Level>1</Level>
+      <Location>1344 179</Location>
+      <SpawnTick>65000</SpawnTick>
+      <AliveTime>3000000</AliveTime>
+      <SpawnStart>200000</SpawnStart>
+      <HP>100</HP>
+      <Virus>
+        <Name>악성세포</Name>
+        <Direction>270</Direction>
+        <Probability>80</Probability>
+      </Virus>
+    </SpawnPoint>
+    <SpawnPoint>
+      <Level>1</Level>
+      <Location>703 1590</Location>
+      <SpawnTick>20000</SpawnTick>
+      <AliveTime>3000000</AliveTime>
+      <SpawnStart>100000</SpawnStart>
+      <HP>100</HP>
+      <Virus>
+        <Name>Flu</Name>
+        <Direction>100</Direction>
+        <Probability>100</Probability>
+      </Virus>
+    </SpawnPoint>
+    <SpawnPoint>
+      <Level>0</Level>
+      <Location>1251 1502</Location>
+      <SpawnTick>10000</SpawnTick>
+      <AliveTime>3000000</AliveTime>
+      <SpawnStart>120000</SpawnStart>
+      <HP>100</HP>
+      <Virus>
+        <Name>H5</Name>
+        <Direction>80</Direction>
+        <Probability>90</Probability>
+      </Virus>
+    </SpawnPoint>
+    <SpawnPoint>
+      <Level>1</Level>
+      <Location>1585 263</Location>
+      <SpawnTick>65000</SpawnTick>
+      <AliveTime>3000000</AliveTime>
+      <SpawnStart>120000</SpawnStart>
+      <HP>100</HP>
+      <Virus>
+        <Name>대장균</Name>
+        <Direction>290</Direction>
+        <Probability>80</Probability>
+      </Virus>
+    </SpawnPoint>
+    <SpawnPoint>
+      <Level>0</Level>
+      <Location>417 350</Location>
+      <SpawnTick>20000</SpawnTick>
+      <AliveTime>3000000</AliveTime>
+      <SpawnStart>10000</SpawnStart>
+      <HP>100</HP>
+      <Virus>
+        <Name>Flu</Name>
+        <Direction>260</Direction>
+        <Probability>100</Probability>
+      </Virus>
+    </SpawnPoint>
+    <SpawnPoint>
+      <Level>0</Level>
+      <Location>1142 273</Location>
+      <SpawnTick>95000</SpawnTick>
+      <AliveTime>3000000</AliveTime>
+      <SpawnStart>20000</SpawnStart>
+      <HP>100</HP>
+      <Virus>
+        <Name>Prein</Name>
+        <Direction>270</Direction>
+        <Probability>50</Probability>
+      </Virus>
+    </SpawnPoint>
+    <SpawnPoint>
+      <Level>1</Level>
+      <Location>1710 483</Location>
+      <SpawnTick>65000</SpawnTick>
+      <AliveTime>3000000</AliveTime>
+      <SpawnStart>120000</SpawnStart>
+      <HP>100</HP>
+      <Virus>
+        <Name>악성세포</Name>
+        <Direction>310</Direction>
+        <Probability>90</Probability>
+      </Virus>
+    </SpawnPoint>
+    <SpawnPoint>
+      <Level>0</Level>
+      <Location>754 28</Location>
+      <SpawnTick>20000</SpawnTick>
+      <AliveTime>5000000</AliveTime>
+      <SpawnStart>0</SpawnStart>
+      <HP>100</HP>
+      <Virus>
+        <Name>Flu</Name>
+        <Direction>250</Direction>
+        <Probability>70</Probability>
+      </Virus>
+    </SpawnPoint>
+    <SpawnPoint>
+      <Level>1</Level>
+      <Location>1241 1838</Location>
+      <SpawnTick>65000</SpawnTick>
+      <AliveTime>3000000</AliveTime>
+      <SpawnStart>10000</SpawnStart>
+      <HP>100</HP>
+      <Virus>
+        <Name>악성세포</Name>
+        <Direction>50</Direction>
+        <Probability>80</Probability>
+      </Virus>
+    </SpawnPoint>
+  </SpawnPoints>
+</VibotMapInfo>

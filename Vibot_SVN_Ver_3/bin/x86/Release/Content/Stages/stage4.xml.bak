@@ -1,0 +1,292 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<VibotMapInfo>
+  <BackgroundMusic>Stage3</BackgroundMusic>
+  <EventScript>
+    <WelcomeMsg />
+    <InGameMsg />
+  </EventScript>
+  <MapInfo>
+    <MainTile>MainTile</MainTile>
+    <Rectangle>0 0 2048 1580</Rectangle>
+    <Goal_Zone>1493 966 180 180</Goal_Zone>
+    <BackGroundLayers />
+    <TileBlocks>
+      <TileBlock>
+        <Type>2</Type>
+        <Location>1 3</Location>
+      </TileBlock>
+      <TileBlock>
+        <Type>2</Type>
+        <Location>1744 1</Location>
+      </TileBlock>
+      <TileBlock>
+        <Type>2</Type>
+        <Location>2 1284</Location>
+      </TileBlock>
+      <TileBlock>
+        <Type>2</Type>
+        <Location>1747 1282</Location>
+      </TileBlock>
+      <TileBlock>
+        <Type>2</Type>
+        <Location>1 304</Location>
+      </TileBlock>
+      <TileBlock>
+        <Type>2</Type>
+        <Location>302 305</Location>
+      </TileBlock>
+      <TileBlock>
+        <Type>2</Type>
+        <Location>603 305</Location>
+      </TileBlock>
+      <TileBlock>
+        <Type>2</Type>
+        <Location>303 3</Location>
+      </TileBlock>
+      <TileBlock>
+        <Type>2</Type>
+        <Location>604 3</Location>
+      </TileBlock>
+      <TileBlock>
+        <Type>2</Type>
+        <Location>1007 1000</Location>
+      </TileBlock>
+      <TileBlock>
+        <Type>2</Type>
+        <Location>303 1283</Location>
+      </TileBlock>
+      <TileBlock>
+        <Type>2</Type>
+        <Location>604 1284</Location>
+      </TileBlock>
+      <TileBlock>
+        <Type>2</Type>
+        <Location>905 1251</Location>
+      </TileBlock>
+      <TileBlock>
+        <Type>2</Type>
+        <Location>1208 1253</Location>
+      </TileBlock>
+      <TileBlock>
+        <Type>2</Type>
+        <Location>1747 981</Location>
+      </TileBlock>
+      <TileBlock>
+        <Type>2</Type>
+        <Location>1743 303</Location>
+      </TileBlock>
+      <TileBlock>
+        <Type>2</Type>
+        <Location>1742 604</Location>
+      </TileBlock>
+      <TileBlock>
+        <Type>1</Type>
+        <Location>1509 1252</Location>
+      </TileBlock>
+      <TileBlock>
+        <Type>1</Type>
+        <Location>1637 1250</Location>
+      </TileBlock>
+      <TileBlock>
+        <Type>1</Type>
+        <Location>1508 1379</Location>
+      </TileBlock>
+      <TileBlock>
+        <Type>1</Type>
+        <Location>1637 1378</Location>
+      </TileBlock>
+      <TileBlock>
+        <Type>1</Type>
+        <Location>1508 1505</Location>
+      </TileBlock>
+      <TileBlock>
+        <Type>1</Type>
+        <Location>1637 1507</Location>
+      </TileBlock>
+      <TileBlock>
+        <Type>1</Type>
+        <Location>1743 906</Location>
+      </TileBlock>
+      <TileBlock>
+        <Type>1</Type>
+        <Location>1872 905</Location>
+      </TileBlock>
+      <TileBlock>
+        <Type>2</Type>
+        <Location>905 229</Location>
+      </TileBlock>
+      <TileBlock>
+        <Type>2</Type>
+        <Location>1206 230</Location>
+      </TileBlock>
+      <TileBlock>
+        <Type>1</Type>
+        <Location>1506 229</Location>
+      </TileBlock>
+      <TileBlock>
+        <Type>1</Type>
+        <Location>1634 233</Location>
+      </TileBlock>
+      <TileBlock>
+        <Type>1</Type>
+        <Location>1507 356</Location>
+      </TileBlock>
+      <TileBlock>
+        <Type>1</Type>
+        <Location>1636 360</Location>
+      </TileBlock>
+      <TileBlock>
+        <Type>2</Type>
+        <Location>903 5</Location>
+      </TileBlock>
+      <TileBlock>
+        <Type>2</Type>
+        <Location>1205 3</Location>
+      </TileBlock>
+      <TileBlock>
+        <Type>2</Type>
+        <Location>1504 5</Location>
+      </TileBlock>
+    </TileBlocks>
+  </MapInfo>
+  <GameField>
+    <Secure_Points>
+      <Secure_Point>438 781 300 300</Secure_Point>
+      <Secure_Point>1402 595 300 300</Secure_Point>
+    </Secure_Points>
+  </GameField>
+  <Vibot>
+    <Location>194 769</Location>
+  </Vibot>
+  <RedBlood>
+    <LifeNumber>6</LifeNumber>
+    <CoreVelocity>0.65</CoreVelocity>
+    <Location>25 937</Location>
+    <Road>
+      <Pos>89 960</Pos>
+      <Pos>135 972</Pos>
+      <Pos>182 979</Pos>
+      <Pos>213 982</Pos>
+      <Pos>244 975</Pos>
+      <Pos>273 976</Pos>
+      <Pos>317 969</Pos>
+      <Pos>333 964</Pos>
+      <Pos>375 953</Pos>
+      <Pos>402 945</Pos>
+      <Pos>428 942</Pos>
+      <Pos>464 932</Pos>
+      <Pos>501 928</Pos>
+      <Pos>533 918</Pos>
+      <Pos>572 912</Pos>
+      <Pos>601 907</Pos>
+      <Pos>617 901</Pos>
+      <Pos>676 889</Pos>
+      <Pos>703 877</Pos>
+      <Pos>732 857</Pos>
+      <Pos>759 843</Pos>
+      <Pos>783 829</Pos>
+      <Pos>811 815</Pos>
+      <Pos>843 800</Pos>
+      <Pos>873 782</Pos>
+      <Pos>916 759</Pos>
+      <Pos>947 747</Pos>
+      <Pos>958 725</Pos>
+      <Pos>977 696</Pos>
+      <Pos>1016 686</Pos>
+      <Pos>1048 674</Pos>
+      <Pos>1081 671</Pos>
+      <Pos>1106 672</Pos>
+      <Pos>1141 675</Pos>
+      <Pos>1171 679</Pos>
+      <Pos>1192 681</Pos>
+      <Pos>1214 683</Pos>
+      <Pos>1260 686</Pos>
+      <Pos>1286 679</Pos>
+      <Pos>1303 679</Pos>
+      <Pos>1330 680</Pos>
+      <Pos>1357 682</Pos>
+      <Pos>1381 683</Pos>
+      <Pos>1403 686</Pos>
+      <Pos>1417 685</Pos>
+      <Pos>1453 686</Pos>
+      <Pos>1477 691</Pos>
+      <Pos>1497 696</Pos>
+      <Pos>1519 703</Pos>
+      <Pos>1545 724</Pos>
+      <Pos>1549 746</Pos>
+      <Pos>1549 778</Pos>
+      <Pos>1553 808</Pos>
+      <Pos>1555 837</Pos>
+      <Pos>1549 851</Pos>
+      <Pos>1551 869</Pos>
+      <Pos>1552 893</Pos>
+      <Pos>1556 917</Pos>
+      <Pos>1553 953</Pos>
+      <Pos>1551 974</Pos>
+      <Pos>1553 998</Pos>
+      <Pos>1557 1023</Pos>
+      <Pos>1557 1045</Pos>
+    </Road>
+  </RedBlood>
+  <WhiteCellPoints>
+    <WhiteCell>
+      <Level>0</Level>
+      <Location>108 848</Location>
+    </WhiteCell>
+  </WhiteCellPoints>
+  <ObjectPoints />
+  <SpawnPoints>
+    <SpawnPoint>
+      <Level>0</Level>
+      <Location>613 354</Location>
+      <SpawnTick>65000</SpawnTick>
+      <AliveTime>1200000</AliveTime>
+      <SpawnStart>100000</SpawnStart>
+      <HP>100</HP>
+      <Virus>
+        <Name>H5</Name>
+        <Direction>270</Direction>
+        <Probability>100</Probability>
+      </Virus>
+    </SpawnPoint>
+    <SpawnPoint>
+      <Level>1</Level>
+      <Location>1628 259</Location>
+      <SpawnTick>100000</SpawnTick>
+      <AliveTime>2000000</AliveTime>
+      <SpawnStart>800000</SpawnStart>
+      <HP>100</HP>
+      <Virus>
+        <Name>대장균</Name>
+        <Direction>275</Direction>
+        <Probability>40</Probability>
+      </Virus>
+    </SpawnPoint>
+    <SpawnPoint>
+      <Level>0</Level>
+      <Location>1073 970</Location>
+      <SpawnTick>65000</SpawnTick>
+      <AliveTime>3000000</AliveTime>
+      <SpawnStart>450000</SpawnStart>
+      <HP>100</HP>
+      <Virus>
+        <Name>H5</Name>
+        <Direction>80</Direction>
+        <Probability>100</Probability>
+      </Virus>
+    </SpawnPoint>
+    <SpawnPoint>
+      <Level>0</Level>
+      <Location>1163 299</Location>
+      <SpawnTick>65000</SpawnTick>
+      <AliveTime>5000000</AliveTime>
+      <SpawnStart>1000000</SpawnStart>
+      <HP>100</HP>
+      <Virus>
+        <Name>Flu</Name>
+        <Direction>240</Direction>
+        <Probability>100</Probability>
+      </Virus>
+    </SpawnPoint>
+  </SpawnPoints>
+</VibotMapInfo>

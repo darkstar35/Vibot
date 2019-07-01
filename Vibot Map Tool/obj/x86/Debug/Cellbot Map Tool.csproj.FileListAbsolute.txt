@@ -1,0 +1,28 @@
+D:\work\Cellbot Map Tool\Cellbot Map Tool\Cellbot Map Tool\bin\Debug\Cellbot Map Tool.exe
+D:\work\Cellbot Map Tool\Cellbot Map Tool\Cellbot Map Tool\bin\Debug\Cellbot Map Tool.pdb
+D:\work\Cellbot Map Tool\Cellbot Map Tool\Cellbot Map Tool\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\work\Cellbot Map Tool\Cellbot Map Tool\Cellbot Map Tool\obj\x86\Debug\Cellbot_Map_Tool.CellbotMapTool.resources
+D:\work\Cellbot Map Tool\Cellbot Map Tool\Cellbot Map Tool\obj\x86\Debug\Cellbot_Map_Tool.Properties.Resources.resources
+D:\work\Cellbot Map Tool\Cellbot Map Tool\Cellbot Map Tool\obj\x86\Debug\Cellbot_Map_Tool.Resource1.resources
+D:\work\Cellbot Map Tool\Cellbot Map Tool\Cellbot Map Tool\obj\x86\Debug\Cellbot_Map_Tool.SetEnemyDialog.resources
+D:\work\Cellbot Map Tool\Cellbot Map Tool\Cellbot Map Tool\obj\x86\Debug\Cellbot_Map_Tool.SetEnemySpawn.resources
+D:\work\Cellbot Map Tool\Cellbot Map Tool\Cellbot Map Tool\obj\x86\Debug\Cellbot_Map_Tool.CSetMapInfoDialog.resources
+D:\work\Cellbot Map Tool\Cellbot Map Tool\Cellbot Map Tool\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\work\Cellbot Map Tool\Cellbot Map Tool\Cellbot Map Tool\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\work\Cellbot Map Tool\Cellbot Map Tool\Cellbot Map Tool\obj\x86\Debug\Cellbot Map Tool.exe
+D:\work\Cellbot Map Tool\Cellbot Map Tool\Cellbot Map Tool\obj\x86\Debug\Cellbot Map Tool.pdb
+C:\Users\darkstar35\Desktop\Vibot\Vibot Map Tool\Cellbot Map Tool\obj\x86\Debug\Cellbot Map Tool.exe
+C:\Users\darkstar35\Desktop\Vibot\Vibot Map Tool\Cellbot Map Tool\obj\x86\Debug\Cellbot Map Tool.pdb
+C:\Users\dark\Desktop\Vibot\Vibot Map Tool\Cellbot Map Tool\obj\x86\Debug\Cellbot Map Tool.exe
+C:\Users\dark\Desktop\Vibot\Vibot Map Tool\Cellbot Map Tool\obj\x86\Debug\Cellbot Map Tool.pdb
+C:\Users\dark\Desktop\Vibot\Vibot Map Tool\Cellbot Map Tool\bin\Debug\Cellbot Map Tool.exe
+C:\Users\dark\Desktop\Vibot\Vibot Map Tool\Cellbot Map Tool\bin\Debug\Cellbot Map Tool.pdb
+C:\Users\dark\Desktop\Vibot\Vibot Map Tool\Cellbot Map Tool\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\dark\Desktop\Vibot\Vibot Map Tool\Cellbot Map Tool\obj\x86\Debug\Cellbot_Map_Tool.CellbotMapTool.resources
+C:\Users\dark\Desktop\Vibot\Vibot Map Tool\Cellbot Map Tool\obj\x86\Debug\Cellbot_Map_Tool.Properties.Resources.resources
+C:\Users\dark\Desktop\Vibot\Vibot Map Tool\Cellbot Map Tool\obj\x86\Debug\Cellbot_Map_Tool.Resource1.resources
+C:\Users\dark\Desktop\Vibot\Vibot Map Tool\Cellbot Map Tool\obj\x86\Debug\Cellbot_Map_Tool.SetEnemyDialog.resources
+C:\Users\dark\Desktop\Vibot\Vibot Map Tool\Cellbot Map Tool\obj\x86\Debug\Cellbot_Map_Tool.SetEnemySpawn.resources
+C:\Users\dark\Desktop\Vibot\Vibot Map Tool\Cellbot Map Tool\obj\x86\Debug\Cellbot_Map_Tool.CSetMapInfoDialog.resources
+C:\Users\dark\Desktop\Vibot\Vibot Map Tool\Cellbot Map Tool\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\dark\Desktop\Vibot\Vibot Map Tool\Cellbot Map Tool\obj\x86\Debug\GenerateResource.write.1.tlog

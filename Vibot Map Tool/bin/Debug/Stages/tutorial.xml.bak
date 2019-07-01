@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<VibotMapInfo>
+  <MapInfo>
+    <Map_Width>1536</Map_Width>
+    <Map_Height>1536</Map_Height>
+    <Goal_Zone>1390 520</Goal_Zone>
+  </MapInfo>
+  <BackGround>
+    <MainTile>
+      <Image>MainTile</Image>
+    </MainTile>
+  </BackGround>
+  <Vibot>
+    <Image>Vibot</Image>
+    <Location>350 350 60 60</Location>
+  </Vibot>
+  <RedBlood>
+    <Image>RedBlood</Image>
+    <Location>50 50</Location>
+    <Road>
+      <Pos>218 236</Pos>
+      <Pos>437 282</Pos>
+      <Pos>550 310</Pos>
+      <Pos>792 300</Pos>
+      <Pos>837 317</Pos>
+      <Pos>849 330</Pos>
+      <Pos>1031 480</Pos>
+      <Pos>1227 608</Pos>
+      <Pos>1420 620</Pos>
+    </Road>
+  </RedBlood>
+  <WhiteCellPoints>
+    <WhiteCell>
+      <Level>1</Level>
+      <Location>150 600</Location>
+    </WhiteCell>
+  </WhiteCellPoints>
+  <SpawnPoints>
+    <SpawnPoint>
+      <Location>1082 3 45 45</Location>
+      <SpawnTick>60000</SpawnTick>
+      <AliveTime>1800000</AliveTime>
+      <Enemys>
+        <Enemy>
+          <Name>H5</Name>
+          <Probability>40</Probability>
+        </Enemy>
+      </Enemys>
+    </SpawnPoint>
+    <SpawnPoint>
+      <Location>1035 751 45 45</Location>
+      <SpawnTick>10000</SpawnTick>
+      <AliveTime>1800000</AliveTime>
+      <Enemys>
+        <Enemy>
+          <Name>H5</Name>
+          <Probability>80</Probability>
+        </Enemy>
+      </Enemys>
+    </SpawnPoint>
+    <SpawnPoint>
+      <Location>30 1000 45 45</Location>
+      <SpawnTick>18000</SpawnTick>
+      <AliveTime>1000000</AliveTime>
+      <Enemys>
+        <Enemy>
+          <Name>H5</Name>
+          <Probability>80</Probability>
+        </Enemy>
+      </Enemys>
+    </SpawnPoint>
+  </SpawnPoints>
+</VibotMapInfo>
